@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./output/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; -->
+</head>
+<body class="font-poppins text-gray-600">
+    <!-- Header nav bar part -->
+    <nav class="bg-slate-300 shadow-sm shadow-slate-300">
+        <div class="container mx-auto px-4 py-3 flex items-center">
+            <a href="index.html">
+                <img src="./images/egu.png" class="h-20" alt="Company Logo">
+            </a>
+            <div class="ml-12 flex">
+                <a href="index.html" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    Home
+                </a>
+            </div>
+
+            <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-md hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-file-alt"></i>
+                    </span>
+                    About
+                </a>
+            </div>
+
+            <div class="ml-12 flex">
+                <a href="#" class="flex items-center font-semibold text-base hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="fas fa-phone"></i>
+                    </span>
+                    Contact
+                </a>
+            </div>
+
+            <div class="relative ml-auto">
+                <span class="absolute left-3 top-2 text-sm text-gray-600">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input type="text" placeholder="Search..." class="block w-full rounded-3xl pl-11 pr-2 py-2 
+                focus:outline-none bg-gray-100 text-sm text-gray-600 shadow-sm shadow-slate-300">
+            </div>
+
+            <div class="ml-5">
+                <a href="#" class="flex items-center font-semibold 
+                text-base text-gray-900 hover:text-blue-700 transition">
+                    <span class="mr-2">
+                        <i class="far fa-user"></i>
+                    </span>
+                    Login/Register
+                </a>
+            </div>
+
+        </div>
+        
+    </nav>
+    <!-- End header nav bar parts -->
+    <section class="py-12 bg-gray-200">
+        <div class="container mx-auto px-4 flex">
+
+            <!-- Main Post -->
+            <div class="xl:w-9/12 lg:w-9/12 w-full xl:ml-6 lg:mr-6">
+                <div class="flex bg-white px-3 py-4 justify-between items-center rounded-sm">
+                    <h5 class="text-base uppercase font-semibold font-Roboto">BUSINESS</h5>
+                    <a href="#" class="text-white py-1 px-3 rounded-xl 
+                    uppercase text-sm bg-blue-500 border border-blue-500 hover:text-blue-500 hover:bg-transparent transition">
+                        SEE MORE
+                    </a>
+                </div>
+
+                <!-- Start Block Post -->
+                <div class="rounded-sm overflow-hidden bg-white shadow-sm">
+                    <a href="#" class="block rounded-md overflow-hidden">
+                        <img src="./images/pic6.png" class="w-full h-96 object-cover transform hover:scale-110 transition duration-500" alt="">
+                    </a>
+
+                    <div class="p-4 pb-5">
+                        <a href="#">
+                            <h2 class="block text-2xl font-semibold text-gray-700 
+                            hover:text-blue-500 transition font-Roboto">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            </h2>
+                        </a>
+                        <p class="text-gray-500 text-sm mt-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Harum impedit ipsum ex consectetur, esse earum veritatis voluptates corporis quasi accusamus suscipit. <br>
+                            Quidem natus nobis blanditiis, dolore ducimus deleniti a saepe! <br>
+                            <br>
+                            
+                            What is Lorem Ipsum?<br>
+                            <br>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard <br>
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make <br>
+                            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, <br>
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <br>
+                            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br>
+                            <br>
+                            Why do we use it?<br>
+                            <br>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br>
+                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed <br>
+                            to using 'Content here, content here', making it look like readable English. Many desktop publishing packages <br>
+                            and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites <br>
+                            still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<br>
+                            <br>
+                            Where does it come from?<br>
+                            <br>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, <br>
+                            making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure <br>
+                            Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered <br>
+                            the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" <br>
+                            (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular <br>
+                            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br>
+                            <br>
+                            <p class="text-gray-500 text-sm bg-green-200 border border-green-600 mt-2 p-4">
+                                <span class="mr-1 text-gray-400 text-xl">
+                                    <i class="fas fa-quote-left"></i>
+                                </span>
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 <br>
+                                from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 <br>
+                                translation by H. Rackham.
+                                <span class="mr-1 text-gray-400 text-xl">
+                                    <i class="fas fa-quote-right"></i>
+                                </span>
+                            </p>
+                            
+
+
+                        </p>
+                        <div class="mt-3 flex space-x-4">
+                            <div class="flex text-gray-400 text-sm items-center">
+                                <span class="mr-2 text-xs">
+                                    <i class="far fa-user"></i>
+                                </span>
+                                Blogging Tips
+                            </div>
+                            <div class="flex text-gray-400 text-sm items-center">
+                                <span class="mr-2 text-xs">
+                                    <i class="far fa-clock"></i>
+                                </span>
+                                July 15, 2022
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End Block Post -->
+
+                <!-- Start Comment -->
+                <div class="p-4 bg-white rounded-sm shadow-sm mt-8">
+                    <h4 class="text-base uppercase font-semibold font-Roboto mb-4">Post A Comment</h4>
+                    <p class="text-sm text-gray-500 mb-2">12 Comments</p>
+                    <div class="space-y-5">
+                        <div class="flex items-center border-b pb-5 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-Roboto">Kazi Ariyan</h4>
+                                <p class="text-xs text-gray-400">9 May 2022 at 12:30</p>
+                                <p class="text-sm font-600 mt-1">This is very nice post</p>
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-1 py-2 text-xs border 
+                                    border-gray-200 rounded-lg shadow-lg 
+                                    hover:bg-blue-500 hover:text-white">Reply</button>
+
+                                    <button class="text-gray-500 px-1 py-2 text-xs border 
+                                    border-gray-200 rounded-lg shadow-lg 
+                                    hover:bg-blue-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="flex items-center border-b pb-5 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-Roboto">Kazi Ariyan</h4>
+                                <p class="text-xs text-gray-400">9 May 2022 at 12:30</p>
+                                <p class="text-sm font-600 mt-1">This is very nice post</p>
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-1 py-2 text-xs border 
+                                    border-gray-200 rounded-lg shadow-lg 
+                                    hover:bg-blue-500 hover:text-white">Reply</button>
+
+                                    <button class="text-gray-500 px-1 py-2 text-xs border 
+                                    border-gray-200 rounded-lg shadow-lg 
+                                    hover:bg-blue-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center border-b pb-5 border-gray-300">
+                            <div class="w-12 h-12 flex-shrink-0">
+                                <img src="./images/ariyan.jpg" class="w-full rounded-full" alt="">
+                            </div>
+                            <div class="flex-grow pl-4">
+                                <h4 class="text-base font-Roboto">Kazi Ariyan</h4>
+                                <p class="text-xs text-gray-400">9 May 2022 at 12:30</p>
+                                <p class="text-sm font-600 mt-1">This is very nice post</p>
+                                <div class="flex gap-2 mt-2">
+                                    <button class="text-gray-500 px-1 py-2 text-xs border 
+                                    border-gray-200 rounded-lg shadow-lg 
+                                    hover:bg-blue-500 hover:text-white">Reply</button>
+
+                                    <button class="text-gray-500 px-1 py-2 text-xs border 
+                                    border-gray-200 rounded-lg shadow-lg 
+                                    hover:bg-blue-500 hover:text-white">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="#">
+                        <h5 class="text-base mb-1">Comment:</h5>
+                        <textarea type="text" class="w-full border border-gray-500 
+                        py-3 px-5 text-sm rounded-sm h-20 focus:outline-none 
+                        focus:border-gray-800">
+                        </textarea>
+
+                        <div class="mt-2">
+                            <button type="submit" class="text-white py-2 px-3 rounded-sm
+                            uppercase text-sm bg-blue-500 border border-blue-800 
+                            hover:text-blue-500 hover:bg-transparent transition">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+                <!-- End Comment -->
+
+            </div>
+            <!-- End Main Post -->
+
+
+
+
+
+            <!-- Right Sidebar -->
+            <div class="lg:w-3/12 w-full mt-8 lg:mt-0">
+                <!-- Start Social Plugin -->
+                <div class="w-full bg-white shadow-sm rounded-xl p-4">
+                    <h3 class="text-xl font-semibold text-gray-700 
+                    font-Roboto">
+                        Social Plugin
+                    </h3>
+
+                    <div class="flex gap-2 mt-4">
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center 
+                        justify-center border border-gray-400 text-base text-gray-800">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center 
+                        justify-center border border-gray-400 text-base text-gray-800">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center 
+                        justify-center border border-gray-400 text-base text-gray-800">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center 
+                        justify-center border border-gray-400 text-base text-gray-800">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-sm flex items-center 
+                        justify-center border border-gray-400 text-base text-gray-800">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- End Social Plugin -->
+
+                <!-- Categories Sidebar -->
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-4">
+                    <h3 class="text-xl font-semibold text-gray-700 
+                    font-Roboto">
+                        Categories
+                    </h3>
+
+                    <!-- Start Category Sidebar -->
+                    <div class="text-gray-700 space-y-2 mt-4">
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Beauty</span>
+                            <span class="font-normal ml-auto">(11)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Business</span>
+                            <span class="font-normal ml-auto">(2)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Fashion</span>
+                            <span class="font-normal ml-auto">(2)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Nature</span>
+                            <span class="font-normal ml-auto">(9)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Food</span>
+                            <span class="font-normal ml-auto">(7)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Music</span>
+                            <span class="font-normal ml-auto">(18)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>News</span>
+                            <span class="font-normal ml-auto">(21)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>People</span>
+                            <span class="font-normal ml-auto">(15)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>E-Sport</span>
+                            <span class="font-normal ml-auto">(20)</span>
+                        </a>
+
+                        <a href="#" class="flex items-center font-semibold leading-4 uppercase
+                        hover:text-blue-700 transition">
+                            <span class="mr-2">
+                                <i class="far fa-folder-open"></i>
+                            </span>
+                            <span>Technology</span>
+                            <span class="font-normal ml-auto">(23)</span>
+                        </a>
+
+                    </div>
+                    <!-- End Category Sidebar -->
+
+                </div>
+                <!-- End Categories Sidebar -->
+
+                
+                <!-- Start Popular Post -->
+                <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+                    <h3 class="text-xl font-semibold text-gray-700 
+                    font-Roboto">
+                        Popular Posts
+                    </h3>
+
+                    <div class="mt-4">
+
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic1.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-base leading-5 block font-Roboto font-semibold transition group-hover:text-blue-500">
+                                    Team Bitbose geared up to attend
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    May 29, 2022
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic2.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-base leading-5 block font-Roboto font-semibold transition group-hover:text-blue-500">
+                                    Team Bitbose geared up to attend
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    May 29, 2022
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic3.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-base leading-5 block font-Roboto font-semibold transition group-hover:text-blue-500">
+                                    Team Bitbose geared up to attend
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    May 29, 2022
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic4.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-base leading-5 block font-Roboto font-semibold transition group-hover:text-blue-500">
+                                    Team Bitbose geared up to attend
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    May 29, 2022
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="flex group mt-4">
+                            <div class="flex-shrink-0">
+                                <img src="./images/pic5.png" class="h-14 w-20 rounded object-cover hover:brightness-200" alt="">
+                            </div>
+                            <div class="flex-grow pl-3">
+                                <h5 class="text-base leading-5 block font-Roboto font-semibold transition group-hover:text-blue-500">
+                                    Team Bitbose geared up to attend
+                                </h5>
+                                <div class="flex text-gray-400 text-sm items-center">
+                                    <span class="mr-1 text-xs">
+                                        <i class="far fa-clock"></i>
+                                    </span>
+                                    May 29, 2022
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <!-- End Popular Post -->
+                
+                <!-- Start Tags -->
+                <div class="w-full bg-white shadow-sm rounded-xl p-4 mt-8">
+                    <h3 class="text-xl font-semibold text-gray-700 font-Roboto">
+                        Tags
+                    </h3>
+                    <div class="flex items-center flex-wrap gap-2 mt-4">
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            Beauty
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            E-Sports
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            Business
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            Programming
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            Java
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            Computer
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            Javascript
+                        </a>
+
+                        <a href="#" class="px-3 py-1 text-sm border border-gray-300 
+                        rounded-sm transition hover:bg-blue-500 hover:text-white">
+                            TailwindCss
+                        </a>
+                    </div>
+                </div>
+                <!-- End Tags -->
+            </div>
+            <!-- End Right Sidebar -->
+        </div>
+    </section>
+    <footer class="border-t py-4">
+        <p class="text-sm text text-center">
+            Copyright &COPY; 2023 by <span class="font-semibold">EGU </span>All Right Reserved
+        </p>
+    </footer>
+</body>
+</html>
